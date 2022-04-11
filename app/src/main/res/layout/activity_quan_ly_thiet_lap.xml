@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanLyThietLap"
+    android:background="#A3FFD500">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:text="Quản lý thiết lập"
+        android:textColor="#E41A1A"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imgAddtl"
+        android:src="@drawable/add"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"></ImageView>
+    <ListView
+        android:background="#ffe6e6"
+        android:id="@+id/lstThietlap"
+        android:layout_below="@+id/imgAddtl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <ImageView
+        android:layout_toLeftOf="@+id/imgAddtl"
+        android:id="@+id/imgReloadtl"
+        android:src="@drawable/refresh"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"></ImageView>
+</RelativeLayout>

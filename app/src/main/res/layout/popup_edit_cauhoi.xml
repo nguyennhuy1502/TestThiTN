@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp" android:layout_height="600dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="40dp">
+    <TextView
+        android:id="@+id/twadch1"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#ff0000"
+        android:text="Sửa câu hỏi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/twadch1"
+        android:id="@+id/twadch3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Chọn độ khó:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <Spinner
+        android:layout_below="@id/twadch3"
+        android:id="@+id/spAdddk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+    <TextView
+        android:layout_below="@+id/spAdddk"
+        android:id="@+id/twadch4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nội dung câu hỏi:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:layout_below="@id/twadch4"
+        android:id="@+id/txtAddnd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+    <TextView
+        android:layout_below="@+id/txtAddnd"
+        android:id="@+id/twadch5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nhập đáp án: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:layout_toRightOf="@+id/rdgchon"
+        android:layout_below="@id/twadch5"
+        android:id="@+id/txtAddda1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+
+    <EditText
+        android:layout_toRightOf="@+id/rdgchon"
+        android:layout_below="@id/txtAddda1"
+        android:id="@+id/txtAddda2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+
+
+    <EditText
+        android:layout_toRightOf="@+id/rdgchon"
+        android:layout_below="@id/txtAddda2"
+        android:id="@+id/txtAddda3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+
+    <EditText
+        android:layout_toRightOf="@+id/rdgchon"
+        android:layout_below="@id/txtAddda3"
+        android:id="@+id/txtAddda4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+    <Button
+        android:id="@+id/btAddch"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtAddda4"
+        android:text="Sửa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/btCancelAddch"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtAddda4"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <RadioGroup
+        android:id="@+id/rdgchon"
+        android:layout_below="@+id/twadch5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdAddda1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdAddda2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdAddda3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rdAddda4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></RadioButton>
+    </RadioGroup>
+</RelativeLayout>

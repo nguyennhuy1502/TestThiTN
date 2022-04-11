@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/tvlineheso"
+        android:id="@+id/tvlinesocau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlinemonthi"
+        android:layout_marginTop="10dp"
+        android:text="Hệ số"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        android:id="@+id/tvlinemonthi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Môn thi" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tvlinemonthi"
+        android:textSize="18sp"
+        android:id="@+id/tvlinetgian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvlinemonthi"
+        android:textSize="18sp"
+        android:id="@+id/tvlineheso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hệ số" />
+    <ImageView
+        android:src="@drawable/delete"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imglinedeletetl"
+        android:layout_alignParentRight="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"></ImageView>
+
+
+</RelativeLayout>

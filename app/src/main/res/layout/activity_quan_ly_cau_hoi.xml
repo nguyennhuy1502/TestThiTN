@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanLyCauHoi"
+    android:background="#A3FFD500">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="5dp"
+        android:text="Quản lý câu hỏi"
+        android:textColor="#E41A1A"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imgAddch"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/add"></ImageView>
+
+    <ListView
+        android:id="@+id/lstCauhoi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imgAddch"
+        android:layout_marginTop="0dp"
+        android:background="#ffe6e6"></ListView>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView19"
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn độ khó:" />
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/textView37"
+        android:layout_below="@+id/textView19"
+        android:id="@+id/spdokho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatSpinner>
+
+</RelativeLayout>

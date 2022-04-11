@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="600dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="50dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView21"
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn môn: "
+        android:textSize="18sp" />
+    <Spinner
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView33"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView21"
+        android:id="@+id/spAddtlmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView33"
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian làm bài: "
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_below="@id/textView32"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số câu hỏi: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_below="@id/textView31"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cấu trúc: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm thiết lập mới"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_below="@id/textView30"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hệ số điểm: " />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btAddtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="20dp"
+        android:text="Thêm"></Button>
+
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txtAddtgianlam"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spAddtlmon"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/textView32"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txtAddSocauhoi"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAddtgianlam"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/textView31"
+        android:ems="10"
+        android:inputType="number" />
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView30"
+        android:layout_below="@+id/txtAddSocauhoi"
+        android:id="@+id/txtAddcautruc"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"></EditText>
+    <Spinner
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView29"
+        android:layout_below="@+id/txtAddcautruc"
+        android:id="@+id/spAddheso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+    <ImageView
+        android:src="@drawable/alert"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txtAddtgianlam"
+        android:layout_below="@id/spAddtlmon"
+        android:id="@+id/imgAlertAddtltgian"
+        android:layout_width="25dp"
+        android:layout_height="25dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgAlertAddtlsocau"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/txtAddtgianlam"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtAddSocauhoi"
+        android:src="@drawable/alert"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgAlertAddtlcautruc"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/txtAddSocauhoi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtAddcautruc"
+        android:src="@drawable/alert"></ImageView>
+
+</RelativeLayout>

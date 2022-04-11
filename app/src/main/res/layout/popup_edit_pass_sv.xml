@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccf2ff">
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/textView36"
+        android:id="@+id/btCancelChangePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btChangePass"
+        android:text="Hủy"></Button>
+
+    <TextView
+        android:layout_below="@id/textView35"
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"
+        android:text="Mật khẩu mới"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu cũ: " />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/textView36"
+        android:text="Đổi mật khẩu"
+        android:id="@+id/btChangePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <EditText
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtoldPass"
+        android:layout_alignParentRight="true"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_marginRight="20dp"
+        android:id="@+id/txtnewPass"
+        android:layout_below="@+id/txtoldPass"
+        android:layout_alignParentRight="true"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"></EditText>
+</RelativeLayout>

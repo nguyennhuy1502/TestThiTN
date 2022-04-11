@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:id="@+id/tt1"
+    android:layout_marginTop="5sp"
+    android:text="Họ tên: "
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#ff00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ></TextView>
+    <TextView
+        android:layout_toRightOf="@id/tt1"
+        android:id="@+id/txtName"
+        android:layout_marginTop="5sp"
+        android:text="Họ và tên"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+<TextView
+    android:layout_below="@id/tt1"
+    android:text="MSV: "
+    android:textSize="15sp"
+    android:id="@+id/tt2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" ></TextView>
+<TextView
+    android:layout_below="@id/tt1"
+        android:layout_toRightOf="@id/tt2"
+        android:text="MSV"
+        android:textSize="15sp"
+        android:id="@+id/txtMSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" ></TextView>
+<TextView
+    android:layout_below="@id/tt2"
+    android:text="Lớp: "
+    android:textSize="15sp"
+    android:id="@+id/tt3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_toRightOf="@id/tt3"
+        android:layout_below="@id/tt2"
+        android:text="Lớp"
+        android:textSize="15sp"
+        android:id="@+id/txtLop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginLeft="200sp"
+        android:layout_below="@id/tt2"
+        android:text="MK: "
+        android:textSize="15sp"
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_toRightOf="@+id/tt"
+        android:layout_below="@id/tt2"
+        android:text="Password"
+        android:textSize="15sp"
+        android:id="@+id/txtMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="40sp"
+        android:layout_marginRight="20sp"
+        app:srcCompat="@drawable/delete"></ImageView>
+
+</RelativeLayout>

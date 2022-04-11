@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3FFD500"
+    tools:context=".Admin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2FFD500"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="-63dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btexit"
+            android:layout_marginStart="81dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/textView13"
+            android:layout_toRightOf="@+id/textView13"
+            android:text="Đăng xuất"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="Trang dành cho QTV"
+            android:textColor="#051CE8"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:id="@+id/btqlts"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/radius_button"
+            app:srcCompat="@drawable/sv" />
+
+        <ImageView
+            android:id="@+id/btexit"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView9"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@+id/btktraloi"
+            android:layout_toRightOf="@+id/btktraloi"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/exit" />
+
+        <ImageView
+            android:id="@+id/btktraloi"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="23dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/ero" />
+
+        <ImageView
+            android:id="@+id/btqlde"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/btqlts"
+            android:layout_toRightOf="@+id/btqlts"
+            app:srcCompat="@drawable/list" />
+
+        <ImageView
+            android:id="@+id/btqldiem"
+            android:layout_width="112dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@drawable/mark" />
+
+        <ImageView
+            android:id="@+id/btsetup"
+            android:layout_width="114dp"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@+id/btqldiem"
+            android:layout_toRightOf="@+id/btqldiem"
+            app:srcCompat="@drawable/setup"></ImageView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btqlde"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:text="QL Đề thi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btqlts"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="13dp"
+            android:text="QL Thí sinh"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btqldiem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="13dp"
+            android:text="QL Điểm thi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btktraloi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="13dp"
+            android:text="Ktra báo lỗi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btsetup"
+            android:layout_marginStart="82dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:text="Thiết lập"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách Admin"
+            android:id="@+id/txtdsad"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"></TextView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

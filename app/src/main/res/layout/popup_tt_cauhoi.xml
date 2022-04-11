@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="600dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical">
+<TextView
+    android:textSize="23sp"
+    android:textColor="#ff0000"
+    android:textStyle="bold"
+    android:id="@+id/tvndch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</TextView>
+    <TextView
+        android:textSize="19sp"
+        android:id="@+id/tvda1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="19sp"
+        android:id="@+id/tvda2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="19sp"
+        android:id="@+id/tvda3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="19sp"
+        android:id="@+id/tvda4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="19sp"
+        android:id="@+id/tvdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btdel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa" />
+    </RelativeLayout>
+
+</LinearLayout>

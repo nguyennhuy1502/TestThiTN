@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:textSize="25sp"
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem lại bài thi" />
+
+    <Button
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btexitpopuphis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lstbaithipopuphis"
+        android:layout_above="@+id/btexitpopuphis"
+        android:layout_below="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textColor="#ff0000"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tvdiemthi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm" />
+</RelativeLayout>

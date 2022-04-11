@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_width="300dp" android:layout_height="600dp">
+<TextView
+    android:id="@+id/td"
+    android:layout_marginTop="20sp"
+    android:textStyle="bold"
+    android:textColor="#ff00"
+    android:textSize="25sp"
+    android:layout_centerHorizontal="true"
+    android:text="Chỉnh sửa sinh viên"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+
+<TextView
+    android:textStyle="bold"
+    android:id="@+id/td1"
+    android:textSize="20sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginTop="15sp"
+    android:layout_below="@+id/td"
+    android:text="MSV: "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+<TextView
+    android:text="Họ tên: "
+    android:textStyle="bold"
+    android:layout_marginLeft="10sp"
+    android:layout_below="@+id/td1"
+    android:id="@+id/td2"
+    android:textSize="20sp"
+    android:layout_marginTop="22sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+<TextView
+    android:text="Lớp: "
+    android:textStyle="bold"
+    android:layout_marginLeft="10sp"
+    android:layout_below="@+id/td2"
+    android:id="@+id/td3"
+    android:textSize="20sp"
+    android:layout_marginTop="22sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="Mật khẩu: "
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/td3"
+        android:id="@+id/td4"
+        android:textSize="20sp"
+        android:layout_marginTop="23sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+<Button
+    android:layout_marginLeft="30sp"
+    android:layout_marginTop="60sp"
+    android:layout_below="@id/td4"
+    android:id="@+id/btAddThisinh"
+    android:text="Chỉnh sửa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></Button>
+    <Button
+        android:layout_toRightOf="@+id/btAddThisinh"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="60sp"
+        android:layout_below="@id/td4"
+        android:id="@+id/btCancelAddThisinh"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+<EditText
+    android:editable="false"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/txtAddMSV"
+    android:id="@+id/txtAddName"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"></EditText>
+<EditText
+    android:editable="false"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/td"
+    android:id="@+id/txtAddMSV"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"></EditText>
+<EditText
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/txtAddName"
+    android:id="@+id/txtAddLop"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"></EditText>
+<EditText
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/txtAddLop"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtAddMatkhau"
+    android:layout_alignParentRight="true"></EditText>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="600dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp">
+<TextView
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:textColor="#ff0000"
+    android:textSize="25sp"
+    android:text="Chọn môn"
+    android:id="@+id/tvtd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+
+    <Spinner
+        android:layout_centerHorizontal="true"
+        android:tooltipText="Chọn môn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/spMonhoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtd"
+        ></Spinner>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/spMonhoc"
+        android:text="Tiếp theo"
+        android:id="@+id/btGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>
